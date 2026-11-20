@@ -25,8 +25,10 @@ class Test_SwagLabLogin:                     #For pytest -CLASS name always star
 
         if actLogoText==expLogoText:
             print("Login Test is Passed")
+            assert True
         else:
             print("Login Test is Failed")
+            assert False
         time.sleep(5)
         driver.quit()
 
@@ -49,9 +51,10 @@ class Test_SwagLabLogin:                     #For pytest -CLASS name always star
 
         if actLoginFailedErrorMsg == expLoginFailedErrorMsg:
             print("Login Failed Test is Passed")
+            assert True
         else:
             print("Login Failed Test is Failed")
-
+            assert False
         time.sleep(5)
 
         time.sleep(5)
