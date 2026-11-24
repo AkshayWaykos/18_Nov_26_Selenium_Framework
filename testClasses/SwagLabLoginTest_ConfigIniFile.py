@@ -57,4 +57,3 @@ class Test_SwagLabLogin:
 
         time.sleep(3)
         driver.quit()
-
