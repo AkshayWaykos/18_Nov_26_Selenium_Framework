@@ -41,7 +41,6 @@ def openBrowser(browser):
 def pytest_addoption(parser):
    parser.addoption("--browser", action="store", default="edge")
 
-
 #get browser name from cmd line
 @pytest.fixture()
 def browser(request):
