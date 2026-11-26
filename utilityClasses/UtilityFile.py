@@ -18,6 +18,7 @@ class CommonFunction:
 
     @staticmethod
     def getAppCred(key):
+<<<<<<< HEAD
         config = configparser.RawConfigParser()              # create object of RawConfigParser class
         config.read(".\\ConfigurationFiles\\config.ini")
         value = config.get("App_Credentials", key)
@@ -28,19 +29,35 @@ class CommonFunction:
     def getAppURL():
         config = configparser.RawConfigParser()
         config.read(".\\ConfigurationFiles\\config.ini")
+=======
+        config = configparser.RawConfigParser()  # create object of RawConfigParser class
+        config.read(".\\ConfigurationFiles\\config.ini")  #
+        value = config.get("App_Credentials", key)
+        return value
+
+    @staticmethod
+    def getAppURL():
+        config = configparser.RawConfigParser()
+        config.read(".\\ConfigurationFiles\\config.ini")  #
+>>>>>>> 6c64108483aa1396505f02692ba7997cce3613fd
         value = config.get("App_Credentials", "URL")
         return value
 
     @staticmethod
     def getAppUN():
         config = configparser.RawConfigParser()
+<<<<<<< HEAD
         config.read(".\\ConfigurationFiles\\config.ini")
+=======
+        config.read(".\\ConfigurationFiles\\config.ini")  #
+>>>>>>> 6c64108483aa1396505f02692ba7997cce3613fd
         value = config.get("App_Credentials", "username")
         return value
 
     @staticmethod
     def getAppPWD():
         config = configparser.RawConfigParser()
+<<<<<<< HEAD
         config.read(".\\ConfigurationFiles\\config.ini")
         value = config.get("App_Credentials", "password")
         return value
@@ -61,3 +78,8 @@ class CommonFunction:
         logger = logging.getLogger()
         logger.setLevel(logging.INFO)
         return logger
+=======
+        config.read(".\\ConfigurationFiles\\config.ini")  #
+        value = config.get("App_Credentials", "password")
+        return value
+>>>>>>> 6c64108483aa1396505f02692ba7997cce3613fd
