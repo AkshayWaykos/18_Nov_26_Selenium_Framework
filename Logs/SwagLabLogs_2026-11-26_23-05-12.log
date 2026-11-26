@@ -1,0 +1,9 @@
+2026-11-26 23:05:14: WARNING: Metadata file C:\Users\Admin\.cache\selenium\se-metadata.json cannot be parsed: EOF while parsing an object at line 29 column 23. Using empty metadata
+2026-11-26 23:05:29: INFO: ---Username Entered---
+2026-11-26 23:05:31: INFO: ---Password Entered---
+2026-11-26 23:05:34: INFO: ---Username Entered---
+2026-11-26 23:05:35: INFO: ---clicked on login button---
+2026-11-26 23:05:36: INFO: ---Password Entered---
+2026-11-26 23:05:38: INFO: ---Login Test is Passed---
+2026-11-26 23:05:39: INFO: ---Clicked o login button---
+2026-11-26 23:05:42: INFO: ---Login Failed Test is Passed: Act & Exp login failed error message match---
