@@ -1,0 +1,13 @@
+2026-11-27 22:56:36: WARNING: Metadata file C:\Users\Admin\.cache\selenium\se-metadata.json cannot be parsed: expected `,` or `}` at line 31 column 28. Using empty metadata
+2026-11-27 22:56:38: INFO: ---Username Entered---
+2026-11-27 22:56:40: INFO: ---Password Entered---
+2026-11-27 22:56:44: INFO: ---Clicked o login button---
+2026-11-27 22:56:47: INFO: ---Login Failed Test is Passed: Act & Exp login failed error message match---
+2026-11-27 22:56:55: INFO: ---Username Entered---
+2026-11-27 22:56:58: INFO: ---Password Entered---
+2026-11-27 22:57:01: INFO: ---clicked on login button---
+2026-11-27 22:57:04: INFO: ---Login Test is Passed---
+2026-11-27 22:57:11: INFO: ---Username Entered---
+2026-11-27 22:57:13: INFO: ---Password Entered---
+2026-11-27 22:57:16: INFO: ---Clicked o login button---
+2026-11-27 22:57:19: INFO: ---Login Failed Test is Passed: Act & Exp login failed error message match---

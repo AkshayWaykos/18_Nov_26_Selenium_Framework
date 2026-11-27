@@ -46,8 +46,14 @@ def pytest_addoption(parser):
 def browser(request):
   return request.config.getoption("--browser")
 
+
+#10: Generate pytest html report
+# pytest -v -s  TestClasses/SwagLabLoginTest.py --browser firefox -n=2 –html=Reports/SwagLabs.html
+
 @pytest.hookimpl(optionalhook=True)
 def pytest_metadata(metadata):
    metadata['Project Name'] = 'Swag Labs'
    metadata['Module Name'] = 'Login'
    metadata['Tester Name'] = 'Akshay'
+
+

@@ -1,0 +1,27 @@
+2026-11-27 22:57:40: WARNING: Metadata file C:\Users\Admin\.cache\selenium\se-metadata.json cannot be parsed: EOF while parsing a value at line 30 column 2. Using empty metadata
+2026-11-27 22:57:41: WARNING: Metadata file C:\Users\Admin\.cache\selenium\se-metadata.json cannot be parsed: EOF while parsing a value at line 2 column 17. Using empty metadata
+2026-11-27 22:57:41: WARNING: Metadata file C:\Users\Admin\.cache\selenium\se-metadata.json cannot be parsed: EOF while parsing a string at line 30 column 11. Using empty metadata
+2026-11-27 22:57:42: INFO: ---Username Entered---
+2026-11-27 22:57:46: INFO: ---Username Entered---
+2026-11-27 22:57:46: INFO: ---Password Entered---
+2026-11-27 22:57:47: INFO: ---Username Entered---
+2026-11-27 22:57:48: INFO: ---Password Entered---
+2026-11-27 22:57:49: INFO: ---Password Entered---
+2026-11-27 22:57:49: INFO: ---Clicked o login button---
+2026-11-27 22:57:51: INFO: ---Clicked o login button---
+2026-11-27 22:57:52: INFO: ---Clicked o login button---
+2026-11-27 22:57:52: INFO: ---Login Failed Test is Passed: Act & Exp login failed error message match---
+2026-11-27 22:57:54: INFO: ---Username Entered---
+2026-11-27 22:57:54: INFO: ---Login Failed Test is Passed: Act & Exp login failed error message match---
+2026-11-27 22:57:55: INFO: ---Login Failed Test is Passed: Act & Exp login failed error message match---
+2026-11-27 22:57:56: INFO: ---Password Entered---
+2026-11-27 22:57:59: INFO: ---clicked on login button---
+2026-11-27 22:57:59: INFO: ---Username Entered---
+2026-11-27 22:58:01: INFO: ---Password Entered---
+2026-11-27 22:58:02: INFO: ---Login Test is Passed---
+2026-11-27 22:58:03: INFO: ---Username Entered---
+2026-11-27 22:58:04: INFO: ---Clicked o login button---
+2026-11-27 22:58:05: INFO: ---Password Entered---
+2026-11-27 22:58:08: INFO: ---Login Failed Test is Passed: Act & Exp login failed error message match---
+2026-11-27 22:58:08: INFO: ---clicked on login button---
+2026-11-27 22:58:11: INFO: ---Login Test is Passed---
