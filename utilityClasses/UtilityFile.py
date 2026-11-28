@@ -1,10 +1,11 @@
 import logging
 from datetime import datetime
 import configparser
+import openpyxl
 
 class CommonFunction:
 
-    #Author Name: Sanjay
+    #Author Name: Akshay
     # This method is used to capture the screenshot of the current page and save it in the Screenshots folder with the test name and current date & time.
     @staticmethod
     def captureSS(driver, test_name):
@@ -22,7 +23,6 @@ class CommonFunction:
         config.read(".\\ConfigurationFiles\\config.ini")        #
         value = config.get("App_Credentials", key)
         return value
-
 
     @staticmethod
     def getAppURL():
@@ -61,3 +61,13 @@ class CommonFunction:
         logger = logging.getLogger()
         logger.setLevel(logging.INFO)
         return logger
+
+#Below Code is use to Take the data from Excel Sheet
+
+    @staticmethod
+    def getDataFromExcel(rowIndex,colIndex):
+        workbook = openpyxl.load_workbook("C:\\Users\\Admin\\PycharmProjects\\PythonProject\\18_Nov_26_Selenium_Framework\\TestData\\SwagTestData.xlsx")
+        sheet = workbook['TestData']
+
+        cellValue = sheet.cell(rowIndex, colIndex).value
+        return cellValue
